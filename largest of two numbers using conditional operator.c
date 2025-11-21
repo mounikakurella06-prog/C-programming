@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+	int a,b,c,large;
+	printf("enter three numbers:");
+	scanf("%d%d%d",&a,&b,&c);
+	large=(a>b)?((a>c)?a:c):((b>c)?b:c);
+	printf("larger value is %d",large);
+	return 0;
+}
